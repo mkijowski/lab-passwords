@@ -23,16 +23,25 @@ Name:
 Choose one of the following tasks and document it ***well***.
 
 1. Use `john` to crack at least one of the `yescrypt.hashes` (I do not know that this is possible).
-2. Crack one `sha512.hases` hash with `rockyou.txt` that was not found using `500_passwords.txt` (this one is possilbe within the time limit)
-3. Crack one `sha512.hashes` hash with `500_passwords.txt` using a rule based attack (this one *might* not be possible, but should be likely)
+2. Crack one `sha512.hashes` hash with `500_passwords.txt` using a rule based attack (this one *might* not be possible, but should be likely)
+3. Crack one `sha512.hases` hash with `rockyou.txt` that was not found using `500_passwords.txt` (this one is possilbe within the time limit)
+   * `rockyou.txt` can be downloaded with: `wget https://github.com/mkijowski/passwords/raw/master/dictionaries/rockyou.txt.gz`
+   * Do ***NOT*** include `rockyou.txt` or `rockyou.txt.gz` anywhere in this repository.  I will deduct many points for doing so...
 
 For whichever you chose write a report below documenting the following:
 
+* Which task you chose.
 * Your research (relevant links) and an overview of your testing.
 * Your final successful attempt (or why you think your attempt failed).
 * An estimate of the total number of hashes computed to complete this task.
 * Each of the tasks above crack a hash that was not previously found.  Give a detailed description of how and why it was not found 
   previously and what your attack did differently. 
+
+---
+
+## Task 2 report
+
+
 
 ---
 
