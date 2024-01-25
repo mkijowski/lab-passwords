@@ -14,16 +14,24 @@ Name:
 
 * What is the difference between our two hash files in `/data`?
 
-* What benefit would `john` bring us when trying to crack *all* of the hashes provided?
+* What benefit would `john` bring us when trying to crack *all* of the hashes provided (both the yescrypt and sha512 hashes)?
 
 ---
 
-## Task 2 - Choose your own task 2???
+## Task 2 - `john`
 
-Choose one of the following tasks and document it ***well***.
+* How many passwords were you able to crack using `john` with the `500_passwords.txt`?
 
-1. Use `john` to crack at least one of the `yescrypt.hashes` (I do not know that this is possible).
-2. Crack one `sha512.hashes` hash with `500_passwords.txt` using a rule based attack (this one *might* not be possible, but should be likely)
+* What would be the maximum number of hashes `john` would compute assuming a 
+  stragiht dictionary attack, `500_passwords.txt`, and the list of yescrypt hashes?
+
+---
+
+## Task 3 - Choose your own task:
+
+Choose ***one*** of the following tasks and document your progress ***well***.
+
+2. Crack one `sha512.hashes` hash with `500_passwords.txt` using a rule based attack.
 3. Crack one `sha512.hases` hash with `rockyou.txt` that was not found using `500_passwords.txt` (this one is possilbe within the time limit)
    * `rockyou.txt` can be downloaded with: `wget https://github.com/mkijowski/passwords/raw/master/dictionaries/rockyou.txt.gz`
    * Do ***NOT*** include `rockyou.txt` or `rockyou.txt.gz` anywhere in this repository.  I will deduct many points for doing so...
@@ -39,28 +47,16 @@ For whichever you chose write a report below documenting the following:
 
 ---
 
-## Task 2 report
-
-
+## Task 3 report
 
 ---
 
-## Feedback
-
-This is the first time I am trying password cracking as a lab (instead of an in class exercise).  What did you think?
-
-### Task 1 thoughts
-
-### Task 2 thoughts
-
----
-
-## Bonus points (20!)
+## Bonus points (20 lab points)
 
 My testing shows using `hashcat` with `rockyou.txt` takes between 10 and 20 days to run on an Intel core i7 
 processor (17 days 10 hours by my last attempt).  Finish a run before this lab is due. 
 
-This bonus can be tackled in teams of up to 6 people.
-
-Submit a `BONUS.md` file with a list of who was in your group and a writeup of what you found.  Each student needs to writeup their own `BONUS.md`
+Submit a `BONUS.md` file with a count of how many passwords and a brief writeup of how you accomplished this task.
+You may work in a team of 3 students on the bonus (and only the bonus).  Each student needs to submit their own 
+writeup and potfile with all found passwords. 
 
