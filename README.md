@@ -31,8 +31,8 @@ Name:
 
 Choose ***one*** of the following tasks and document your progress ***well***.
 
-2. Crack one `sha512.hashes` hash with `500_passwords.txt` using a rule based attack.
-3. Crack one `sha512.hases` hash with `rockyou.txt` that was not found using `500_passwords.txt` (this one is possilbe within the time limit)
+1. Crack one `sha512.hashes` hash or `yescrypt.hashes` with `500_passwords.txt` using a rule based attack.
+2. Crack one `sha512.hases` hash or `yescrypt.hashes` with `rockyou.txt` that was not found using `500_passwords.txt` (this one is possilbe within the time limit)
    * `rockyou.txt` can be downloaded with: `wget https://github.com/mkijowski/passwords/raw/master/dictionaries/rockyou.txt.gz`
    * Do ***NOT*** include `rockyou.txt` or `rockyou.txt.gz` anywhere in this repository.  I will deduct many points for doing so...
 
