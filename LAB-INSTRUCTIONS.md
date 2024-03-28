@@ -1,4 +1,4 @@
-# Password Cracking
+# Password Cracking Lab
 
 * [https://hashcat.net/hashcat/](https://hashcat.net/hashcat/)
 * [John the Ripper](https://github.com/openwall/john)
@@ -33,7 +33,7 @@ $y$j9T$Js/HFjal6ATDwwXaKRDTV/$aXeiQycKJoHJCTkwl1fXoJlQG4xE.qnkVSCEE4WIwA8
 
 Where each line is a section from a user's `/etc/shadow` entry.
 
-In this exercise you will be attempting to recover as many passwords as you can from the supplied files.
+In this lab you will be attempting to recover as many passwords as you can from the supplied files.
 
 You will need to download the dictionaries and shadow file via github website (windows) or via wget as follows:
 
@@ -45,6 +45,12 @@ wget https://raw.githubusercontent.com/mkijowski/passwords/master/data/yescrypt.
 (dont try this last one at the end or on your own time, it's a doozy)
 wget https://github.com/mkijowski/passwords/raw/master/dictionaries/rockyou.txt.gz
 ```
+
+---
+
+## Note: if you have any issues running hashcat
+
+Document those issues and use john instead!
 
 ---
 
@@ -71,6 +77,8 @@ Some optional commands that I like to add (after `-a 0`)
 
 * you will probably need to use `hashcat --force` then the rest of the above options
 * Intel CPU's might need the following program installed if hashcat does not run: `sudo apt install intel-opencl-icd`
+
+---
 
 ## Cracking passwords with `john`
 

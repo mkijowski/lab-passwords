@@ -6,6 +6,8 @@ Name:
 
 ## Task 1 - `hashcat`
 
+Use the hashcat attack from the instruction on the `sha512.hashes`.  Please include the hashcat potfile in this repository and answer the following.
+
 * Describe what the `-a 0` flag does when used with `hashcat`.  Be verbose and explain its greatest strength and weakness.
 
 * How many passwords were you able to crack using `hashcat` with the `500_passwords.txt`?
@@ -20,6 +22,8 @@ Name:
 
 ## Task 2 - `john`
 
+Use the same attack type from task 1 with John the Ripper against the `yescrypt.hashes`.  Include the John potfile in this repository and answer the following:
+
 * How many passwords were you able to crack using `john` with the `500_passwords.txt`?
 
 * What would be the maximum number of hashes `john` would compute assuming a 
@@ -31,8 +35,8 @@ Name:
 
 Choose ***one*** of the following tasks and document your progress ***well***.
 
-1. Crack one `sha512.hashes` hash or `yescrypt.hashes` with `500_passwords.txt` using a rule based attack.
-2. Crack one `sha512.hases` hash or `yescrypt.hashes` with `rockyou.txt` that was not found using `500_passwords.txt` (this one is possilbe within the time limit)
+1. Crack one `sha512.hashes` or `yescrypt.hashes` hash with `500_passwords.txt` using a rule based attack (must be a password not found in task 1 or 2 above).
+2. Crack one `sha512.hases` or `yescrypt.hashes` hash with `rockyou.txt` that was not found in task 1 or 2 above (this one is known to be possible within the time limit)
    * `rockyou.txt` can be downloaded with: `wget https://github.com/mkijowski/passwords/raw/master/dictionaries/rockyou.txt.gz`
    * Do ***NOT*** include `rockyou.txt` or `rockyou.txt.gz` anywhere in this repository.  I will deduct many points for doing so...
 
@@ -47,7 +51,7 @@ For whichever you chose write a report below documenting the following:
 
 ---
 
-## Task 3 report
+## Task 3 report can go here
 
 ---
 
