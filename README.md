@@ -48,6 +48,7 @@ For whichever you chose write a report below documenting the following:
 * An estimate of the total number of hashes computed to complete this task.
 * Each of the tasks above crack a hash that was not previously found.  Give a detailed description of how and why it was not found 
   previously and what your attack did differently. 
+* Analasys of all passwords cracked (and uncracked), counts, trends, etc.
 
 ---
 
