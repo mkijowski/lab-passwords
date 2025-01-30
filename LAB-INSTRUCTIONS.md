@@ -4,6 +4,7 @@
 * [John the Ripper](https://github.com/openwall/john)
 * `./data/*.hashes` files of password hashes
 * `./dictionaries/` various wordlists for hashing
+* ***Note: if you have any issues running 'hashcat', document those issues and use 'john' instead!***
 
 ---
 

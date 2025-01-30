@@ -4,34 +4,28 @@ Name:
 
 ---
 
-## Task 1 - `hashcat`
+## Task 1 - Simple dictionary attacks
 
-Use the hashcat attack from the instruction on the `sha512.hashes`.  Please include the hashcat potfile in this repository and answer the following.
+Using a simple dictionary attack and the 500 password wordlist, use the `hashcat` and or `john` to attack both the `sha512.hashes` and `yescrypt.hashes` password lists.  
 
-* Describe what the `-a 0` flag does when used with `hashcat`.  Be verbose and explain its greatest strength and weakness.
+***Please include the 'hashcat' or 'john' potfile in this repository and answer the following.
 
-* How many passwords were you able to crack using `hashcat` with the `500_passwords.txt`?
+* Describe what a basic dictionary attack against a salted/hashed password list is.  Be verbose and explain its top strengths and weaknesses as you see them.
 
-* Describe what would be needed to crack all hashes in the `/data/sha512.hashes` file.
+* How many sha512 hashed passwords were you able to crack with the `500_passwords.txt`?
 
-* What is the difference between our two hash files in `/data`?
+* How many yescrypt hashed passwords were you able to crack with the `500_passwords.txt`?
 
-* What benefit would `john` bring us when trying to crack *all* of the hashes provided (both the yescrypt and sha512 hashes)?
+* Describe what would be needed to crack all hashes in the `/data/*.hashes` files.  Be verbose!
 
----
-
-## Task 2 - `john`
-
-Use the same attack type from task 1 with John the Ripper against the `yescrypt.hashes`.  Include the John potfile in this repository and answer the following:
-
-* How many passwords were you able to crack using `john` with the `500_passwords.txt`?
-
-* What would be the maximum number of hashes `john` would compute assuming a 
-  stragiht dictionary attack, `500_passwords.txt`, and the list of yescrypt hashes?
+* How many total hashes would be computed while performing the above attacks?  Assume the following:
+  * simple dictionary attack
+  * using 500 password dictionary
+  * attack **both** hash lists
 
 ---
 
-## Task 3 - Choose your own task:
+## Task 2 - Go Beyond Limits (Choose your own adventure)
 
 Choose ***one*** of the following tasks and document your progress ***well***.
 
@@ -44,15 +38,14 @@ For whichever you chose write a report below documenting the following:
 
 * Which task you chose.
 * Your research (relevant links) and an overview of your testing.
-* Your final successful attempt (or why you think your attempt failed).
-* An estimate of the total number of hashes computed to complete this task.
-* Each of the tasks above crack a hash that was not previously found.  Give a detailed description of how and why it was not found 
-  previously and what your attack did differently. 
+* Detaqils of your final successful attempt (both the command used and estimate of time taken). 
+* A ***good*** estimate of the total number of hashes computed to complete this task.
+* Both parts of task 2 crack a hash that was not previously found in task 1.  Give a detailed description of how and why it was not found previously and what your attack did differently. 
 * Analasys of all passwords cracked (and uncracked), counts, trends, etc.
 
 ---
 
-## Task 3 report can go here
+## Task 2 report can go here
 
 ---
 
