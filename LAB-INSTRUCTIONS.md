@@ -39,12 +39,12 @@ In this lab you will be attempting to recover as many passwords as you can from 
 You will need to download the dictionaries and shadow file via github website (windows) or via wget as follows:
 
 ```bash
-wget https://raw.githubusercontent.com/mkijowski/passwords/master/dictionaries/500_passwords.txt
-wget https://raw.githubusercontent.com/mkijowski/passwords/master/data/sha512.hashes
-wget https://raw.githubusercontent.com/mkijowski/passwords/master/data/yescrypt.hashes
+wget https://raw.githubusercontent.com/mkijowski/lab-passwords/refs/heads/main/data/yescrypt.hashes
+wget https://raw.githubusercontent.com/mkijowski/lab-passwords/refs/heads/main/data/sha512.hashes
+wget https://raw.githubusercontent.com/mkijowski/lab-passwords/refs/heads/main/dictionaries/500_passwords.txt
 
 (dont try this last one at the end or on your own time, it's a doozy)
-wget https://github.com/mkijowski/passwords/raw/master/dictionaries/rockyou.txt.gz
+wget https://github.com/mkijowski/password-attacks/raw/refs/heads/main/dictionaries/rockyou.tgz
 ```
 
 ---
